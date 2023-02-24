@@ -1,0 +1,93 @@
+.filters-group-container {
+  margin-top: 16px;
+
+  padding-left: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.category-heading {
+  font-size: 18px;
+}
+
+.search-card {
+  background-color: #f1f5f9;
+  margin-bottom: 10px;
+  width: 230px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.search-input {
+  border-width: 0px;
+  background-color: #f1f5f9;
+  outline: none;
+  margin-left: 15px;
+  height: 30px;
+  font-size: 14px;
+}
+.search-icon {
+  color: #64748b;
+}
+/* Hex: #f1f5f9
+Hex: #0f172a
+Hex: #12022f
+Hex: #64748b
+Hex: #475569
+Hex: #0967d2 */
+
+.category-card {
+  list-style-type: none;
+  padding: 0px;
+}
+.category-item {
+  padding-top: 10px;
+  color: #64748b;
+  font-weight: bold;
+}
+
+.category-item-selected {
+  color: #0967d2;
+}
+
+.rating-card {
+  list-style-type: none;
+  padding: 0px;
+}
+.rating-item-selected {
+  color: #0967d2;
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  padding: 0px;
+}
+
+.selected-styles {
+  color: #0967d2;
+}
+
+.rating-img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.clear-filter {
+  color: #0967d2;
+  border: 2px solid #0967d2;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 10px;
+}
